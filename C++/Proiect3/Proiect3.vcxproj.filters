@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Socket">
+      <UniqueIdentifier>{f179ac70-f765-4b1e-98c2-37228f401de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Error">
+      <UniqueIdentifier>{98872ef6-91fe-4781-a1e7-6c70194cc0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{c4cd910c-4f4b-4ce6-a6c9-9ee0343fe355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ping">
+      <UniqueIdentifier>{447972ed-4eda-49ba-bbaa-07bd6db9a4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Error">
+      <UniqueIdentifier>{98f9f2ff-392a-418d-841b-716a37c8b4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ping">
+      <UniqueIdentifier>{eba9aa3f-0313-4f3d-9d9a-1825f9a9dbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Socket">
+      <UniqueIdentifier>{f9489c88-f889-4b67-b2a9-a99c05e4072a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{6252003f-6373-4e5f-8154-1ab83c7fce81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScanWorkers">
+      <UniqueIdentifier>{470fd77b-c30c-4dac-8b2c-cba7c8aa46ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScanWorkers">
+      <UniqueIdentifier>{c4594534-9bcb-4d94-93a4-8fd27665022b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PortScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Header Files\Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\Error</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocket.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Coada.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IPWorker.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CStringWorker.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PortWorker.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IScanWorker.h">
+      <Filter>Header Files\ScanWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanWorkerPS.h">
+      <Filter>Header Files\ScanWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanWorkerTCP.h">
+      <Filter>Header Files\ScanWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanWorkerUDP.h">
+      <Filter>Header Files\ScanWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPingSweep.h">
+      <Filter>Header Files\Ping</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedPingSweep.h">
+      <Filter>Header Files\Ping</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPSocket.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="CSocket.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxChecker.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptedPorts.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Pachet.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="RAWSocket.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanWorkerRAW.h">
+      <Filter>Header Files\ScanWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sniffer.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortScanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\Error</Filter>
+    </ClCompile>
+    <ClCompile Include="CPingSweep.cpp">
+      <Filter>Source Files\Ping</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedPingSweep.cpp">
+      <Filter>Source Files\Ping</Filter>
+    </ClCompile>
+    <ClCompile Include="IScanWorker.cpp">
+      <Filter>Source Files\ScanWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanWorkerPS.cpp">
+      <Filter>Source Files\ScanWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanWorkerTCP.cpp">
+      <Filter>Source Files\ScanWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanWorkerUDP.cpp">
+      <Filter>Source Files\ScanWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocket.cpp">
+      <Filter>Source Files\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="CStringWorker.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="IPWorker.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PortWorker.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPSocket.cpp">
+      <Filter>Source Files\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="CSocket.cpp">
+      <Filter>Source Files\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxChecker.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptedPorts.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RAWSocket.cpp">
+      <Filter>Source Files\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanWorkerRAW.cpp">
+      <Filter>Source Files\ScanWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sniffer.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CommonPorts.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="CommonPortsUDP.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

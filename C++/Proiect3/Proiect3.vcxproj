@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46557501-6014-43A6-AB7B-8ACD90B7BD84}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Proiect3</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvancedPingSweep.h" />
+    <ClInclude Include="Coada.h" />
+    <ClInclude Include="CPingSweep.h" />
+    <ClInclude Include="CSocket.h" />
+    <ClInclude Include="CStringWorker.h" />
+    <ClInclude Include="DescriptedPorts.h" />
+    <ClInclude Include="Errors.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="IPWorker.h" />
+    <ClInclude Include="IScanWorker.h" />
+    <ClInclude Include="Pachet.h" />
+    <ClInclude Include="PortScanner.h" />
+    <ClInclude Include="PortWorker.h" />
+    <ClInclude Include="RAWSocket.h" />
+    <ClInclude Include="ScanWorkerPS.h" />
+    <ClInclude Include="ScanWorkerRAW.h" />
+    <ClInclude Include="ScanWorkerTCP.h" />
+    <ClInclude Include="ScanWorkerUDP.h" />
+    <ClInclude Include="Sniffer.h" />
+    <ClInclude Include="SyntaxChecker.h" />
+    <ClInclude Include="TCPSocket.h" />
+    <ClInclude Include="UDPSocket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdvancedPingSweep.cpp" />
+    <ClCompile Include="CPingSweep.cpp" />
+    <ClCompile Include="CSocket.cpp" />
+    <ClCompile Include="CStringWorker.cpp" />
+    <ClCompile Include="DescriptedPorts.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="IPWorker.cpp" />
+    <ClCompile Include="IScanWorker.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PortScanner.cpp" />
+    <ClCompile Include="PortWorker.cpp" />
+    <ClCompile Include="RAWSocket.cpp" />
+    <ClCompile Include="ScanWorkerPS.cpp" />
+    <ClCompile Include="ScanWorkerRAW.cpp" />
+    <ClCompile Include="ScanWorkerTCP.cpp" />
+    <ClCompile Include="ScanWorkerUDP.cpp" />
+    <ClCompile Include="Sniffer.cpp" />
+    <ClCompile Include="SyntaxChecker.cpp" />
+    <ClCompile Include="TCPSocket.cpp" />
+    <ClCompile Include="UDPSocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CommonPorts.txt" />
+    <Text Include="CommonPortsUDP.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

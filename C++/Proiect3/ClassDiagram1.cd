@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CPortScanner" Collapsed="true">
+    <Position X="3" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAgAAAAAAAAACAEAAAAAQAAAAAIAAAAEAEEAAA=</HashCode>
+      <FileName>PortScanner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSocket" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAEAAAAQgAAABBAACAAASAAAQAQCAAAAAA=</HashCode>
+      <FileName>CSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPSocket" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAIAAAAAAAAAAAABAAAAAACAAAAIQAAAAAAA=</HashCode>
+      <FileName>TCPSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDPSocket" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAAIAAAAAAAAAAAABAAAAAACAAAAAQAAAAAAA=</HashCode>
+      <FileName>UDPSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exception" Collapsed="true">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAEAAAAAAAAAAAAAAAABAIABAAAAAACA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coada&lt;T&gt;" Collapsed="true">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAIEAAAAAAAAAQAAAAAAFAAAAAAAAAAIAACBAYAAAA=</HashCode>
+      <FileName>Coada.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStringWorker" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CStringWorker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDescriptedPorts" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABgAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DescriptedPorts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPWorker" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAIEAAAAAAAAAAAAAAAAAAiAAAAA=</HashCode>
+      <FileName>IPWorker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PortWorker" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABBAAAAAAAAAEAAAAAAAAAAAAAAIAAAgAAAAA=</HashCode>
+      <FileName>PortWorker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSyntaxChecker" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAABEAAABAA=</HashCode>
+      <FileName>SyntaxChecker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IScanWorker" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAgAAEAAACAgCAAAAAAAAAAAAgAAAAAEAEEAAA=</HashCode>
+      <FileName>IScanWorker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScanWorkerPS" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEABAAAAAAAAAAAAAEIAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ScanWorkerPS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScanWorkerTCP" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAEQAA=</HashCode>
+      <FileName>ScanWorkerTCP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScanWorkerUDP" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAEAgA=</HashCode>
+      <FileName>ScanWorkerUDP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAdvancedPingSweep" Collapsed="true">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAEEAAEAAAAAAEAAgBAAAAAABA=</HashCode>
+      <FileName>AdvancedPingSweep.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPingSweep" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAgAFAAAAAEAEAEAAIAAgAAAAAAAAAAAAIEA=</HashCode>
+      <FileName>CPingSweep.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DescriptedPort" Collapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAhAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAJAAAA=</HashCode>
+      <FileName>DescriptedPorts.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Status" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSocket.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Type" Collapsed="true">
+    <Position X="21.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSocket.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WType" Collapsed="true">
+    <Position X="17.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CStringWorker.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_0005_1" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAABAAAAAAAgAAAAAAAAAAAQAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>CSocket.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0005_2" Collapsed="true">
+    <Position X="21.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAACAIAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>CSocket.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Grupare" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgA=</HashCode>
+      <FileName>Errors.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0007_1" Collapsed="true">
+    <Position X="17.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CStringWorker.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
