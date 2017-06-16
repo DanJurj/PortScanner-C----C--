@@ -1,0 +1,18 @@
+C:\Users\Dan\Examen\PortScanner\PortScanner\bin\Release\PortScanner.exe.config
+C:\Users\Dan\Examen\PortScanner\PortScanner\bin\Release\PortScanner.exe
+C:\Users\Dan\Examen\PortScanner\PortScanner\bin\Release\PortScanner.pdb
+C:\Users\Dan\Examen\PortScanner\PortScanner\obj\Release\PortScanner.PortScanner.resources
+C:\Users\Dan\Examen\PortScanner\PortScanner\obj\Release\PortScanner.Properties.Resources.resources
+C:\Users\Dan\Examen\PortScanner\PortScanner\obj\Release\PortScanner.csproj.GenerateResource.Cache
+C:\Users\Dan\Examen\PortScanner\PortScanner\obj\Release\PortScanner.exe
+C:\Users\Dan\Examen\PortScanner\PortScanner\obj\Release\PortScanner.pdb
+C:\Users\Dan\Examen\PortScanner\PortScanner\obj\Release\PortScanner.csprojResolveAssemblyReference.cache
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\bin\Release\PortScanner.exe.config
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\obj\Release\PortScanner.exe
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\obj\Release\PortScanner.pdb
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\bin\Release\PortScanner.exe
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\bin\Release\PortScanner.pdb
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\obj\Release\PortScanner.csprojResolveAssemblyReference.cache
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\obj\Release\PortScanner.PortScanner.resources
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\obj\Release\PortScanner.Properties.Resources.resources
+C:\Users\Dan\Desktop\Proiect POO\PortScanner(C#)\PortScanner\obj\Release\PortScanner.csproj.GenerateResource.Cache

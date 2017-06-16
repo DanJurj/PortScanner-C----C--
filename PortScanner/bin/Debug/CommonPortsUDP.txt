@@ -1,0 +1,10 @@
+135 DCE endpoint resolution
+137 NetBIOS Name Service
+138 NetBIOS Name Service
+139 NetBIOS Name Service
+500 Internet Security Association and Key Management Protocol
+1900 Microsoft Simple Service Discovery Protocol (SSDP), discovery of UPnP devices
+1985 Cisco Hot Standby Router Protocol (HSRP)
+2000 Cisco SCCP (Skinny)
+2001 CAPTAN Test Stand System
+3702 Web Services Dynamic Discovery (WS-Discovery),used by various components of Windows Vista

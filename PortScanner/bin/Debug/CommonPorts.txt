@@ -1,0 +1,22 @@
+1 TCP Port Service Multiplexer (TCPMUX)
+7 ECHO
+18 Message Send Protocol (MSP)
+20 FTP -- Data
+22 SSH Remote Login Protocol
+23 Telnet
+25 Simple Mail Transfer Protocol (SMTP)
+53 Domain Name System (DNS)
+69 Trivial File Transfer Protocol (TFTP)
+80 HTTP
+115 Simple File Transfer Protocol (SFTP)
+118 SQL Services
+137 NetBIOS Name Service
+139 NetBIOS Datagram Service
+396 Novell Netware over IP
+443 HTTPS
+444 Simple Network Paging Protocol (SNPP)
+445 Microsoft-DS
+458 Apple QuickTime
+546 DHCP Client
+547 DHCP Server
+1080 Socks
